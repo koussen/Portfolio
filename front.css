@@ -47,23 +47,98 @@ body {
 .body-1 {
     display: flex;
 }
-.hero-left,
-.hero-right {
+.hero-left {
     width: 50%;
+    
 }
 
 .hero-right {
   justify-content: flex-end;
   display: flex;
+  width: 50%;
 }
 .id-picture {
     width: 420px;
     height: 520px;
     border-radius: 10%;
     margin-top: 5%;
-    margin-right: 10%;
+    margin-right: 30%;
 }
 
+/* HERO LEFT SECTION */
+#h1 {
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0%;
+}
+
+#h2 {
+  margin-top: 0%;
+  justify-content: center;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#p-text {
+  max-width: 400px;
+  margin: 0 auto;  
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+}
+
+#h4 {
+  justify-content: center;
+  display: flex;
+}
+
+
+/* HERO LEFT SECTION */
+
+.div-logos {
+  width: 100%;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;
+  gap: 20px;                 /* space between logos */
+  margin-top: 10px;
+}
+
+.logos-img {
+  width: 150px;               /* consistent size */
+  height: auto;
+}
+
+#what-i-do {
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  padding-left: 5%;
+}
+.container-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap; /* allows stacking on mobile */
+}
+
+.container-h2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:first baseline;/* Centers the h2 text */
+  color: white; /* Text color for visibility */
+  padding: 20px; /* Adds internal spacing */
+  box-sizing: border-box; /* Prevents padding from increasing width */
+}
+
+#div-h2-1 {
+  padding-left: 5%;
+}
 
 
 
