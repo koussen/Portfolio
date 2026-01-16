@@ -112,37 +112,79 @@ body {
   height: auto;
 }
 
+
+#section-2 {
+  margin-bottom: 10%;
+}
+
 #what-i-do {
   margin-top: 100px;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  padding-left: 5%;
+  padding-left: 15%;
 }
-.container-main {
+
+.services {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  flex-wrap: wrap; /* allows stacking on mobile */
+  gap: 100px;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.container-h2 {
-  width: 50%;
+.card {
+  background: white;
+  width: 400px;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card-header {
   display: flex;
   align-items: center;
-  justify-content:first baseline;/* Centers the h2 text */
-  color: white; /* Text color for visibility */
-  padding: 20px; /* Adds internal spacing */
-  box-sizing: border-box; /* Prevents padding from increasing width */
+  gap: 15px;
+  background: #1c355e;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
 }
 
-#div-h2-1 {
-  padding-left: 5%;
+
+.icon {
+  background: white;
+  color: #1c355e;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.card p {
+  color: #333;
+  line-height: 1.6;
+  padding-bottom: 100px;
+}
+
+#my-portfolio {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
 }
 
 
+.image-port {
+  width: 950px;
+  border-radius: 50%;
+}
 
-
+footer {
+  background-color: #323232;
+}
 
 
 

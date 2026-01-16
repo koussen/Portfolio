@@ -7,6 +7,7 @@
 
     <link rel ="stylesheet" href="front.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 </head>
 <body>
     <header >
@@ -16,12 +17,12 @@
                 <img class = "user" src="/src/user.png" alt="user picture">
             </div>
             <div class="header-right">
-            <p class="head-text-1">ABOUT ME</p><p class="head-text-2">WHAT I DO</p><p class="head-text-3"> MY PORTFOLIO </p>
+            <nav class="head-text-1">ABOUT ME</nav><nav class="head-text-2">WHAT I DO</nav><nav class="head-text-3"> MY PORTFOLIO </nav>
             </div>
 
         </div>
     </header>
-
+    <!--First Section-->
     <section class="body-1">
         <div class="hero-left"> 
             <div class="text-left">
@@ -48,36 +49,141 @@
         </div>
     
     </section>
-
-    <section>
+    <!--Second Section-->
+    <section id="section-2">
         <h2 id="what-i-do"> WHAT I DO</h2>
+            <div class="services">
+            
 
-        <div class="hero-2">
-            <div class="container-main" >
-
-                <div>
-                    <div class="container-h2" id="div-h2-1">
-                        <h2> Web Development</h2>
+                <div class="card">
+                    <div class="card-header" >
+                        <div class="icon">
+                            <i class="fa-solid fa-computer"></i>               
+                        </div>
+                        <h2> Web Development</h2>    
+                    </div>  
+                    <p>I create responsive and visually appealing websites and web application that focus on usability, performance, and clean design.</p>
+                </div>
+                <div class="card">
+                    <div class="card-header"> 
+                        <div class="icon">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                        <h2 id="console"> Console Based Program </h2>
                     </div>
-                    <div class="container-h2" id="div-h2-2" > 
-                        <h2> Console Based Program </h2>
-                    </div>
+                    <p>I develop console-based applications that emphasize strong logic, efficiency, and well-structured code.</p>
                 </div>
             </div>
+    </section>
+    <!--Third Section-->
+    <section>
+
+        <h1 id="my-portfolio">MY PORTFOLIO</h1>
+        <div id="container-3">
+            <!--CONTAINER START-->
+            <div class="services-2">
+                <div>
+                    <img src="/src/image 10.png"  class="image-port" alt="portfolio-newton" >
+                </div>
+                <div>
+                    <h3>Newton Game (Contributor) </h3>
+                </div>
+            </div>
+            <div class="services-2">
+                <div>
+                    <img src="/src/image 11.png" alt="portfolio-javenture" class="image-port">
+                </div>
+                <div>
+                    <h3>Javenture Game(Contributor)</h3>
+                </div>
+            </div>
+            <div class="services-2">
+                <div>
+                    <img src="/src/image 12.png" alt="portfolio-healthy-habit" class="image-port">
+
+                </div>
+                <div>
+                    <h3>Healthy Habit Checker (Main Developer)</h3>
+                </div>
+            </div>
+            <div class="services-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h3>Access my Projects</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            Newton Game
+                        </li>
+                        <li>
+                            Javenture Game
+                        </li>
+                        <li>
+                            Healthy Habit Checker
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--CONTAINER END-->
         </div>
+
     </section>
 
 
 
 
 
+<footer>
+
+<div class="footer-card">
+    <div>
+        <h2>CONTACT ME</h2>
+    </div>
+
+    <div>
+        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-brands fa-facebook-messenger"></i>
+        <i class="fa-brands fa-github"></i>
+
+    </div>
+
+    <div>
+        <ul>
+            <li>
+                About Me
+            </li>
+            <li>
+                What I Do
+            </li>
+            <li>
+                My Portfolio
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>
+               Email
+            </li>
+            <li>
+                Messenger
+            </li>
+            <li>
+                Github
+            </li>
+        </ul>
+    </div>
+</div>
 
 
 
 
 
 
-
-
+</footer>
 </body>
 </html>
