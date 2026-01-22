@@ -17,13 +17,17 @@
                 <img class = "user" src="/src/user.png" alt="user picture">
             </div>
             <div class="header-right">
-            <nav class="head-text-1">ABOUT ME</nav><nav class="head-text-2">WHAT I DO</nav><nav class="head-text-3"> MY PORTFOLIO </nav>
+            <nav class="navigation">
+                <a href="#About-Me">ABOUT ME</a>
+                <a href="#What-i-do">WHAT I DO</a>
+                <a href="#My-Portfolio"> MY PORTFOLIO </a>
+            </nav>
             </div>
 
         </div>
     </header>
     <!--First Section-->
-    <section class="body-1">
+    <section class="body-1" id="About-Me">
         <div class="hero-left"> 
             <div class="text-left">
             <h1 class="text" id="h1">HI I'M VJ IESEN</h1>
@@ -50,7 +54,7 @@
     
     </section>
     <!--Second Section-->
-    <section id="section-2">
+    <section class="section-2"  id="What-i-do">
         <h2 id="what-i-do"> WHAT I DO</h2>
             <div class="services">
             
@@ -76,7 +80,7 @@
             </div>
     </section>
     <!--Third Section-->
-    <section>
+    <section id="My-Portfolio">
 
         <h1 id="my-portfolio">MY PORTFOLIO</h1>
         <div id="container-3">
@@ -85,28 +89,23 @@
                 <div>
                     <img src="/src/image 10.png"  class="image-port" alt="portfolio-newton" >
                 </div>
-                <div>
-                    <h3>Newton Game (Contributor) </h3>
-                </div>
+                    <h3 class="h3-port">Newton Game (Contributor) </h3>
             </div>
             <div class="services-2">
                 <div>
                     <img src="/src/image 11.png" alt="portfolio-javenture" class="image-port">
                 </div>
-                <div>
-                    <h3>Javenture Game(Contributor)</h3>
-                </div>
+                    <h3 class="h3-port">Javenture Game(Contributor)</h3>
             </div>
+
             <div class="services-2">
                 <div>
                     <img src="/src/image 12.png" alt="portfolio-healthy-habit" class="image-port">
 
                 </div>
-                <div>
-                    <h3>Healthy Habit Checker (Main Developer)</h3>
-                </div>
+                    <h3 class="h3-port">Healthy Habit Checker (Main Developer)</h3>
             </div>
-            <div class="services-2">
+            <div class="services-2" id="portfolio-div">
                 <div class="card">
                     <div class="card-header">
                         <div class="icon">
@@ -116,13 +115,13 @@
                     </div>
                     <ul>
                         <li>
-                            Newton Game
+                           <a href="https://newton-game-xv9d.vercel.app/" target="_blank" class="port-li"> Newton Game</a>
                         </li>
                         <li>
-                            Javenture Game
+                            <a href="https://github.com/koussen/Javenture-Final.git" target="_blank" class="port-li"> Javenture Game </a>
                         </li>
                         <li>
-                            Healthy Habit Checker
+                            <a href="https://github.com/koussen/Healthy-Habit-Checker.git" target="_blank" class="port-li">Healthy Habit Checker </a>
                         </li>
                     </ul>
                 </div>
@@ -137,48 +136,50 @@
 
 
 <footer>
+<div class="footer-service">
 
-<div class="footer-card">
-    <div>
-        <h2>CONTACT ME</h2>
-    </div>
+    <div class="footer-card">
+        <div class="footer-top">
+                <h2 id="footer-h2">CONTACT ME</h2>
 
-    <div>
-        <i class="fa-regular fa-envelope"></i>
-        <i class="fa-brands fa-facebook-messenger"></i>
-        <i class="fa-brands fa-github"></i>
+            <div class="icons-footer">
+                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-brands fa-github"></i>
 
-    </div>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="footer-li">
+                <ul class="navigation-footer">
+                    <li>
+                        <a href="#About-Me">About Me</a>
+                    </li>
+                    <li>
+                       <a href="#What-i-do">What I Do</a>
+                    </li>
+                    <li>
+                       <a href="#My-Portfolio"> MY Portfolio </a>
+                    </li>
+                </ul>
+            </div>
 
-    <div>
-        <ul>
-            <li>
-                About Me
-            </li>
-            <li>
-                What I Do
-            </li>
-            <li>
-                My Portfolio
-            </li>
-        </ul>
-    </div>
-
-    <div>
-        <ul>
-            <li>
-               Email
-            </li>
-            <li>
-                Messenger
-            </li>
-            <li>
-                Github
-            </li>
-        </ul>
+            <div class="footer-li">
+                <ul>
+                    <li>
+                       <nav> Email </nav>
+                    </li>
+                    <li>
+                       <nav> Messenger</nav>
+                    </li>
+                    <li>
+                       <nav> Github </nav>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
-
 
 
 

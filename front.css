@@ -6,6 +6,7 @@
 body {
   margin: 0;
   background-color:  #E6E7EC;
+  margin-bottom: 0;
 }
 
 .header {
@@ -31,6 +32,11 @@ body {
   justify-content: flex-end;
   gap: 15px;
 
+}
+.navigation a {
+  text-decoration: none;
+  padding: 15px;
+  color: #E6E7EC;
 }
 
 .user {
@@ -113,7 +119,7 @@ body {
 }
 
 
-#section-2 {
+.section-2 {
   margin-bottom: 10%;
 }
 
@@ -176,24 +182,97 @@ body {
   font-size: 40px;
 }
 
-
-.image-port {
-  width: 950px;
-  border-radius: 50%;
+#container-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
+.service-2 {
+  display: flex;
+  justify-content: center;
+  
+
+}
+.image-port {
+  width: 70%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.h3-port {
+  margin-left: 5%;
+}
+
+#portfolio-div {
+  margin-left: 5%;
+}
+
+.port-li {
+  text-decoration: none;
+  color: black;
+}
 footer {
   background-color: #323232;
+  margin-bottom: 0;
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  padding-top: 100px;
 }
 
+.footer-service {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+.footer-card {
+  background-color: #E6E7EC;
+  border-radius: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  height: auto;
+  flex-direction: column;
+}
 
+.footer-top {
+  display: flex;
+  align-items: center;
+    margin-bottom: 50px;
+}
 
+.footer-top h2 {
+  margin: 0;
+}
 
+.footer-top div {
+  margin-left: auto; /* pushes icons to the right */
+  margin-right: 19%;
 
+}
 
+#footer-h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+}
 
+.footer-top i {
+  font-size: 30px;
+  padding: 10px;
+}
 
+.footer-middle {
+  display: flex;
+  gap: 50%;
+  padding-bottom: 20%;
+}
 
+.navigation-footer a{
+  color:#323232;
+  text-decoration: none;
+}
 
 
 
