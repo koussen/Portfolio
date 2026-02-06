@@ -358,6 +358,7 @@ footer {
   #container-3 {
     grid-template-columns: 1fr;
     gap: 30px;
+    align-items: center;
     
   }
   .services-2 {
@@ -367,7 +368,12 @@ footer {
   .image-port {
     width: 70%;
     height: auto;
-    margin-left: 0 auto;
+    margin-left: 15%;
     display: block;
+  }
+
+  #portfolio-div {
+    margin-right: 5%;
+    margin-bottom: 10%;
   }
 }
