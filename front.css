@@ -39,6 +39,10 @@ body {
   color: #E6E7EC;
 }
 
+.navigation a:hover {
+  text-decoration:underline;
+}
+
 .user {
   width: 40px;
   height: 40px;
@@ -63,6 +67,8 @@ body {
   display: flex;
   width: 50%;
 }
+
+
 .id-picture {
     width: 420px;
     height: 520px;
@@ -70,7 +76,14 @@ body {
     margin-top: 5%;
     margin-right: 30%;
 }
+.id-picture {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.id-picture:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
 /* HERO LEFT SECTION */
 #h1 {
   justify-content: center;
@@ -275,7 +288,9 @@ footer {
   font-family: 'Montserrat', sans-serif;
 }
 
-
+.navigation-footer a:hover {
+  text-decoration:underline;
+}
 
 
 
