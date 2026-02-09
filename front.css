@@ -260,16 +260,11 @@ footer {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
+  justify-content: space-between;
 }
 
 .footer-top h2 {
   margin: 0;
-}
-
-.footer-top div {
-  margin-left: auto; /* pushes icons to the right */
-  
-
 }
 
 #footer-h2 {
@@ -393,6 +388,10 @@ footer {
     margin-bottom: 10%;
   }
 
+  .card {
+    width: 350px;
+  }
+
   /* FOOTER */
   .footer-service {
     width: 80%;
@@ -406,7 +405,10 @@ footer {
   align-items: center;
   gap: 20px;
 }
+  #footer-h2 {
+    font-size: 40px;
 
+  }
   .footer-top i {
   font-size: 20px;
   padding: 10px;
@@ -414,9 +416,14 @@ footer {
 }
 
   .icons-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-middle {
+  gap: 20%;
 }
 
 
