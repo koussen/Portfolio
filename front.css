@@ -67,7 +67,7 @@ body {
 }
 
 .hero-right {
-  justify-content: flex-end;
+  justify-content: center;
   display: flex;
   width: 50%;
 }
@@ -79,7 +79,6 @@ body {
     height: 520px;
     border-radius: 10%;
     margin-top: 5%;
-    margin-right: 30%;
 }
 .id-picture {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -295,14 +294,7 @@ footer {
 
 /*hover*/
 
-.navigation a:hover {
-  text-decoration: underline;
-}
-
-.port-li:hover {
-  text-decoration: underline;
-}
-.navigation-footer a:hover {
+.navigation a:hover, .navigation-footer a:hover, .port-li:hover  {
   text-decoration: underline;
 }
 
